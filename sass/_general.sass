@@ -25,6 +25,8 @@ nav
         padding-right: 28px
         &:last-child
             border-right: none
+.hamburher
+    display: none
 .subheader
     top: 50px
     position: absolute
@@ -39,17 +41,18 @@ nav
         margin-top: 6px
         opacity: 0.5
         color: #ffffff
-        font-size: 13
+        font-size: 13px
         font-weight: 400
     &_phone
         display: block
+        margin-top: 8px
         color: #ffffff
         font-size: 22px
         font-weight: 400
         text-transform: uppercase
-        text-decoration: wavy
+        text-decoration: none
         text-align: right
-        line-height: 17px
+        line-height: 12px
     &_call
         margin-top: 23px
         color: #ffffff
@@ -70,8 +73,6 @@ nav
         font-weight: 400
         text-transform: uppercase
         text-decoration: wavy
-        +btn_hover
-
 .promo
     height: 800px
     background: url(../img/background_promo.png) center center/cover no-repeat
@@ -399,3 +400,5 @@ footer
             margin-top: 19px
             text-transform: uppercase
             text-align: center
+.xs-visible
+    display: none
